@@ -60,6 +60,15 @@ ul{
     justify-content: center;
 
 }
+
+.rectangle1{
+    height: 12rem;
+}
+
+.simplify{
+    background-color: white;
+    padding-bottom: 2rem;
+}
 .articles{
     display: inline-flex;
     justify-content: space-around;
@@ -109,7 +118,7 @@ ul{
 .brown{
     height: 8rem;
     align-items: flex-end;
-    padding-left: 45rem;
+    padding-left: 30rem;
     padding-top: 3rem;
     
 }
@@ -175,7 +184,7 @@ ul{
 .man2{
     height: 8rem;
     padding-top: 3rem;
-    padding-left: 45rem;
+    padding-left: 30rem;
 }
 
 .services-list{
@@ -187,14 +196,34 @@ ul{
 }
 .all-services{
     padding-top: 5rem;   
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-bottom: 5rem ;
 }
 
-.all-services p{
-    padding-right: 5rem;
-}
+
 
 .all-services h2{
     font-size: 2rem;
+}
+
+.sections{
+    background-color: white;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+    text-align: left center;
+}
+
+.icono{
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+.suscribe{
+    background-color: #ffc600;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10rem;
 }
