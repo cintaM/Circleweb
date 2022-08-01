@@ -333,11 +333,122 @@ input{
    color: #6b708d;
    padding-bottom: 2rem;
 }
-
+.img-mobile{
+    display: none;
+}
 @media (max-width:769px){
+    body{
+        margin-top:0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #f2f4fc;
+        font-family: 'Roboto', sans-serif;
+    }
+    .one-page{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
 
+    .button-one{
+        display: flex;
+        flex-direction: column;
+    }
     .list-pc{
         display:none;
     }
  
+    .carts{
+        padding: auto;
+        height: 15rem;
+        width:15rem;
+    }
+
+    .entrada{
+      padding: 0;
+    }
+
+    .entrada h1{
+        padding: 0;
+    }
+
+  #projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .rectangle1{
+    width: 14.50rem;
+  }
+
+  .img-final{
+    display: none;
+  }
+
+  .img-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+ }
+
+ .business{
+    height: 3rem;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+ }
+ .all-clients{
+    background-repeat: repeat;
+    margin: 0rem;
+    padding: 0rem;
+    background-size: cover;
+ }
+ .end-faces{
+    display: none;
+ }
+ .first-faces{
+    display: none;
+ }
+
+ .clients{
+    font-size: auto;
+ }
+ .coment{
+    margin: 0rem;
+    padding: 0rem;
+ }
+
+ .title-one{
+    padding: 0rem;
+ }
+
+ .yellow{
+    padding: 0rem;
+ }
+
+ .services-list{
+    display: flex;
+    flex-direction: column;
+ }
+
+.final{
+    display: flex;
+    flex-direction: column;
+}
+
+.list1{
+padding-right: 10rem;
+}
+
+.suscribe{
+    background-position: 0rem;
+}
 }
