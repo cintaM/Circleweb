@@ -15,7 +15,7 @@ body{
 ul a {
     text-decoration: none;
     text-align: center;
-    color:grey;
+    color:#6b708d;
 }
 
 .imagenlogo1{
@@ -208,8 +208,8 @@ ul{
 .sections{
     background-color: white;
     padding-bottom: 2rem;
-    margin-right: 2rem;
-    text-align: left center;
+    margin-right: 1rem;
+    text-align: center;
 }
 
 .icono{
@@ -227,3 +227,38 @@ ul{
     align-items: center;
     padding: 10rem;
 }
+
+.imagenlogo2{
+    height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.final{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.final ul
+    {
+    display: flex;
+    flex-direction: column;}
+
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.list1 a{
+    padding-right: 2rem;
+    color:#0000EE;
+    font-size: 0.85rem;
+}
+
+.address{
+    color:#6b708d;
+}
+
+
