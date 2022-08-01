@@ -41,6 +41,9 @@ ul a {
     list-style: none;
 }
 
+.customer{
+    padding-right: 1rem;
+}
 .buttonini{
     background-color: #072ac8;
     color: white;
