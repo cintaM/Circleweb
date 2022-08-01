@@ -1,5 +1,7 @@
 body{
-    margin: 0;
+    margin-top:5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     background-color: #f2f4fc;
     font-family: 'Roboto', sans-serif;
 }
@@ -7,15 +9,13 @@ body{
 .entrada{
     display: flex;
     justify-content: space-around;
-    padding-top: 3rem;
     align-content: center ;
 }
 
 ul a {
     text-decoration: none;
     text-align: center;
-    color:blue;
-    margin: 0 3em 5em 3em;
+    color:grey;
 }
 
 .imagenlogo1{
@@ -28,7 +28,7 @@ ul a {
 
 ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .one-page{
@@ -37,13 +37,11 @@ ul{
 }
 
 .carts{
-    width: 35rem;
+    width: 40rem;
     align-content: flex-end;
-    padding-right: 5rem;
-    padding-top: 6rem;
 }
 .one-page h1{
-    font-size: 3rem ;
+    font-size: 2.5rem ;
     text-align: center;
     text-align: left;
 }
@@ -52,10 +50,9 @@ ul{
 }
 
 .container{
-    height: 5rem;
-    align-items: center;
-    align-content: center;
-    position: relative;
+    height: 4rem;
+    padding-left: 3rem;
+    width: 50rem;
 }
 .projects{
     display: flex;
@@ -67,6 +64,7 @@ ul{
     display: inline-flex;
     justify-content: space-around;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .projects h2{
@@ -86,8 +84,6 @@ ul{
     align-content: center;
     align-items: center;
     padding-top: 5rem;
-    padding-left: 12rem;
-    padding-right: 5rem;
     padding-bottom: 5rem;
 }
 
@@ -95,3 +91,70 @@ ul{
     display:flex;
     padding-top: 1rem;
 }
+.all-clients{
+        background-color: #2D3F64;
+}
+
+.first-faces{
+    display: flex;
+    align-content: space-around;
+
+}
+
+.blond{
+    height: 8rem;
+}
+
+.brown{
+    height: 8rem;
+}
+
+.clients{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    
+}
+
+.clients h1 {
+    font-size: 2rem;
+}
+
+.yellow{
+    text-align: center;
+    color: #ffc600;
+    font-size: 1.25rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    padding-bottom: 3rem ;
+    padding-top: 5rem ;
+}
+
+.coment {
+    display: inline-flex;
+    padding: 0rem;
+}
+
+.photo-woman{
+    height: 2.5rem;
+    padding-top: 1rem;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.woman-name{
+    color: #a2d6f9;
+    font-size: 0.85rem;
+}
+.web{
+    font-size: 0.6rem;
+}
+
