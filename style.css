@@ -5,7 +5,25 @@ body{
     background-color: #f2f4fc;
     font-family: 'Roboto', sans-serif;
 }
+/* .hamburger{
+    display: none;
+    cursor: pointer;
+} */
 
+#nav{
+    display: none;
+}
+
+.list{
+    display: block;
+    width: 3rem;
+    height: 3px;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #6b708d;
+    color: #2D3F64;
+}
 .entrada{
     display: flex;
     justify-content: space-around;
@@ -521,36 +539,13 @@ padding-right: 10rem;
     padding-left: 10rem;
 }
 
-.menu-ham{  
-position: fixed;
-z-index: 100;
-top: 1rem;
-right: 1rem;
-padding: 4px;
-border: none;
-background:#f2f4fc;
-cursor: pointer;}
-
-.showMenu {
-    transform: translateY(0);
-  }
-
-  .listado-pc {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: black;
-    list-style: none;
-    padding-top: 4rem;
-  }
-
-  .listado{
-    position: absolute;
-  }
+.nav a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	&:hover { opacity: 0.8; }
+}
 
 }
+
+
