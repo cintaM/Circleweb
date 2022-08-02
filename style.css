@@ -1,7 +1,7 @@
 body{
     margin-top:5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     background-color: #f2f4fc;
     font-family: 'Roboto', sans-serif;
 }
@@ -53,12 +53,12 @@ ul a {
 
 .one-page{
     display: flex;
-    align-content: space-around;
+    align-content: space-between;
+    padding-right: 3rem;
 }
 
 .carts{
-    width: 40rem;
-    align-content: flex-end;
+    width: 37rem;
 }
 .one-page h1{
     font-size: 2.5rem ;
@@ -85,17 +85,17 @@ ul a {
     border:none;
     background-color: #f2f4fc;
     color: #6b708d;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 3rem;
     
 }
 .button-get{
     background-color: #072ac8;
     color: white;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 2rem;
     border: none;
 }
 .rectangle1{
-    height: 12rem;
+    height: 10rem;
 }
 
 .simplify{
@@ -104,7 +104,7 @@ ul a {
 }
 .articles{
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -301,7 +301,7 @@ ul a {
 
 input{
     height: 3.5rem;
-    width: 20rem;
+    width: 15rem;
     border: none;
 
 
@@ -347,8 +347,17 @@ input{
     .one-page{
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
+        align-content: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        text-justify: center;
+        text-align: center;
+    }
+
+    .one-page h1{
+        text-justify: center;
+        padding-left: 3rem;
+        text-align: center;
     }
 
     .button-one{
@@ -361,30 +370,32 @@ input{
  
     .carts{
         padding: auto;
-        height: 15rem;
-        width:15rem;
-    }
-
-    .entrada{
-      padding: 0;
+        height: 30rem;
+        width:30rem;
     }
 
     .entrada h1{
         padding: 0;
+        text-align: center;
+        text-justify: justify;
+    }
+
+    .entrada li{
+        display: none;
     }
 
   #projects{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .articles{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
+    justify-content: space-evenly;
+    }
 
-  .rectangle1{
+    .rectangle1{
     width: 14.50rem;
   }
 
@@ -395,15 +406,19 @@ input{
   .img-mobile{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 2rem;
+    justify-content: space-evenly;
+    padding-left: 8rem;
+    justify-items: center;
+    justify-items: center;
+    
  }
 
  .business{
-    height: 3rem;
+    height: 8rem;
     align-content: center;
     justify-content: center;
     justify-items: center;
+    padding-right: 3rem;
  }
  .all-clients{
     background-repeat: repeat;
@@ -448,7 +463,50 @@ input{
 padding-right: 10rem;
 }
 
-.suscribe{
-    background-position: 0rem;
+.title-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.simplify{
+    background-color: white;
+    padding-bottom: 2rem;
+    margin: 1rem 13.4rem;
+}
+
+.buttonini{
+    display: none;
+}
+
+.sections{
+    margin: 1rem 3rem;
+}
+.suscribe{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0rem;
+}
+.input-suscribe{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+
+}
+.button-final{
+    margin-top: 1rem;
+    width: 25rem;
+    margin-right: 1rem;
+}
+
+.input-suscribe input{
+    width: 15rem;
+    padding-right: 3rem;
+    padding-left: 7rem;
+    justify-items: center;
+    margin-left: 1rem;
+
+}
+
 }
