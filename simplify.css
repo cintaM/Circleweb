@@ -1,0 +1,174 @@
+body{
+    margin-top:5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #f2f4fc;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mobile{
+    display: none;
+}
+
+
+.entrada{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+ul a {
+    text-decoration: none;
+    text-align: center;
+    color:#6b708d;
+    font-size: 0.85rem;
+
+}
+
+.imagenlogo1{
+    display: flex;
+    height: 15px;
+    padding-top: 1rem;
+
+}
+
+.img-final{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.entrada ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.customer{
+    padding-right: 1rem;
+}
+.buttonini{
+    background-color: #072ac8;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.rectangle1{
+    height: 10rem;
+}
+
+.simplify{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.articles{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#projects h2{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#projects article{
+    text-align: center;
+
+}
+
+.icono{
+    height: 3rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
+.suscribe{
+    background-color: #ffc600;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.imagenlogo2{
+    height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.final{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.final ul
+    {
+    display: flex;
+    flex-direction: column;}
+
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.list1 a{
+    padding-right: 2rem;
+    color:#0000EE;
+    font-size: 0.85rem;
+}
+
+.final p{
+    color:#6b708d;
+}
+
+.ordenar{
+    text-align: left;
+    padding: 1rem;
+}
+
+input{
+    height: 3.5rem;
+    width: 15rem;
+    border: none;
+
+
+}
+
+::placeholder{
+    background-image: url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800bdf78ad83daac42661_Mail.svg");
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    background-size: 1.5rem;
+    
+}
+
+.button-final{
+    background-color: #072ac8;
+    color: white;
+    padding: 1.30rem 3rem;
+    border: none;
+    margin-left: 1rem;
+
+}
+
+.suscribe h1{
+    font-size: 2rem;
+}
+
+.suscribe p{
+   color: #6b708d;
+   padding-bottom: 2rem;
+}
