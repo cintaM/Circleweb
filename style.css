@@ -12,7 +12,7 @@ body{
     padding-bottom: 3rem;
 }
 .list-mobile{
-    display: none;
+    display: none
 }
 ul a {
     text-decoration: none;
@@ -336,6 +336,9 @@ input{
 .img-mobile{
     display: none;
 }
+
+
+
 @media (max-width:769px){
     body{
         margin-top:0rem;
@@ -364,10 +367,7 @@ input{
         display: flex;
         flex-direction: column;
     }
-    .list-pc{
-        display:none;
-    }
- 
+   
     .carts{
         padding: auto;
         height: 30rem;
@@ -520,4 +520,37 @@ padding-right: 10rem;
     margin:auto;
     padding-left: 10rem;
 }
+
+.menu-ham{  
+position: fixed;
+z-index: 100;
+top: 1rem;
+right: 1rem;
+padding: 4px;
+border: none;
+background:#f2f4fc;
+cursor: pointer;}
+
+.showMenu {
+    transform: translateY(0);
+  }
+
+  .listado-pc {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .listado{
+    position: absolute;
+  }
+
 }
