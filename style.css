@@ -508,5 +508,16 @@ padding-right: 10rem;
     margin-left: 1rem;
 
 }
-
+.final p{
+  text-align: center;
+}
+.imagenlogo2{
+    display:block;
+    margin:auto;
+}
+.list1{
+    display:block;
+    margin:auto;
+    padding-left: 10rem;
+}
 }
