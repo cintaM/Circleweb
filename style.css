@@ -540,14 +540,13 @@ padding-right: 10rem;
     top: 1rem;
     right: 1rem;
     padding: 4px;
-    border: none;
-    background: #f2f4fc;
+    border: black solid 1px;
+    background: white;
     cursor: pointer;
   }
   .closeIcon {
     display: none;
   }
-  
   .menu {
     position: fixed;
     transform: translateY(-100%);
@@ -557,12 +556,10 @@ padding-right: 10rem;
     right: 0;
     bottom: 0;
     z-index: 99;
-    background:#f2f4fc;
-    color: black;
+    background: #f2f4fc;
+    color: white;
     list-style: none;
-    padding-top: 4rem;
   }
-  
   .showMenu {
     transform: translateY(0);
   }
