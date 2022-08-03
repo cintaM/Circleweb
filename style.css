@@ -119,7 +119,7 @@ ul a {
     background-color: white;
     padding-bottom: 2rem;
 }
-.articles{
+#insert1 {
     display: inline-flex;
     justify-content: space-evenly;
     padding-top: 5rem;
@@ -136,7 +136,12 @@ ul a {
 
 }
 
-
+#insert1 p{
+    width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .button-one{
     display:flex;

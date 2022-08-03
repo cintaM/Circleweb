@@ -1,4 +1,4 @@
-// hamburger Menu
+// Hamburger Menu
 
 // const menu = document.querySelector(".menu");
 // const menuItems = document.querySelectorAll(".menuItem");
@@ -33,17 +33,17 @@
     fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => response.json()).then((response) => {
       let dataL = ""
-      response.forEach((articles)=>{
-        data += `
-        <section>
-        <h1>Symplify</h1>
-        <h3>UI Design & App Development</h3>
-        <p>Completed on 2/2/22</p>
-        <img src="./img/61feadb7386a4ce8e1606b95_1-p-2000.jpeg"/>
-        <p>Simplify ${articles.body}</p>
-       </section>`
-      });
-      document.getElementById("insert").innerHTML = dataL;
+      response.forEach((articles, index)=>{
+        if(index < 3){
+        dataL += `
+        <article class="simplify">
+                <img class="rectangle1" src="./img/Rectangle 71.png"/>
+                <h3>${articles.title}</h3>
+                <p>${articles.body}</p>
+                <a href="#">Learn more </a>
+            </article>`
+     } });
+      document.getElementById("insert1").innerHTML = dataL;
     })
   }
 
