@@ -106,6 +106,9 @@ ul a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: center;
+  align-content: center;
+  align-content: center;
 }
 
 #insert1 h3 {
@@ -113,9 +116,11 @@ ul a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  align-content: center;
+  align-content: center;
 }
 .rectangle1{
-    height: 12rem;
+    height: 15rem;
 }
 
 .simplify{
@@ -127,6 +132,9 @@ ul a {
     justify-content: space-evenly;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    text-align: center;
+    align-content: center;
+    align-content: center;
 }
 
 #projects h2{
@@ -302,6 +310,9 @@ input{
         flex-direction: column;
         justify-content: space-evenly;
         margin-top: 1rem;
+        text-align: center;
+        align-content: center;
+        align-content: center;
     }
 
     .simplify{
@@ -363,6 +374,26 @@ input{
         margin-left: 0rem;
         margin-right: 0rem;
     }
-
+    #insert1 p{
+        width: 650px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      padding-left: 2rem;
+      padding-right: 8rem;
+    }
     
+    #insert1 h3 {
+        width: 650px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .rectangle1{
+        height: 15rem;
+    }
+
+
 }
