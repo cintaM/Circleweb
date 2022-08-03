@@ -22,3 +22,21 @@ menuItems.forEach(
   function(menuItem) { 
     menuItem.addEventListener("click", toggleMenu);
   })
+
+
+  // Use Fecth API To retrieve articles from web
+  document.getElementById("btn-articles").addEventListener("click",btn-articles);
+
+  function bntArticles (){
+    fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((response) => response.json()).then((response) => {
+      let data = ""
+      response.forEach((articles)=>{
+        data += `
+        <h1></h1>
+        <img 
+        <p>${user.body}</p>`
+
+      })
+    })
+  }

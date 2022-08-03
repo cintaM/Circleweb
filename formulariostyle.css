@@ -65,3 +65,40 @@ ul a {
     justify-content: space-evenly;
 }
 
+.imagenlogo2{
+    height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.final{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    color:white;
+    text-decoration: none;
+}
+
+.final ul
+    {
+    display: flex;
+    flex-direction: column;}
+
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.list1 a{
+    padding-right: 2rem;
+    color:#0000EE;
+    font-size: 0.85rem;
+}
+
+.final p{
+    color:#6b708d;
+}
+
