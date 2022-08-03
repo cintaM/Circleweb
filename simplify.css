@@ -79,6 +79,26 @@ ul a {
     padding-right: 8rem;
     font-size: 1.25rem;
 }
+
+.text h1{
+    font-size: 4rem;
+    text-align: start;
+    padding-left: 8rem;
+}
+
+.text h3{
+    font-size: 1.5rem;
+    color:#6b708d;
+  text-shadow: #6b808d;
+  text-align: start;
+  padding-left: 8rem;
+}
+
+.text p {
+    margin-top: 3rem;
+    padding-left: 9rem;
+    text-align: left;
+}
 #insert1 p{
     width: 250px;
   white-space: nowrap;
@@ -108,8 +128,10 @@ ul a {
 }
 
 #projects h2{
-    text-align: center;
+    text-align: start;
     padding-top: 5rem;
+    margin-left: 9rem;
+    font-size: 2.5rem;
 }
 
 #projects article{
