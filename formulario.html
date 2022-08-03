@@ -31,7 +31,7 @@
     </nav>   
     </div>  
       <div>
-        <button class="buttonini"><a class= "contact" href="#">Contact us</a></button>
+        <button class="buttonini"><a class= "contact" href="http://127.0.0.1:5501/formulario.html">Contact us</a></button>
         </div> 
         <nav id="mobile">
             <ul class="menu">
@@ -50,28 +50,32 @@
         <div>
             <h1>Contact Us</h1>
         </div>
+        <form id="form">
         <div class="name">
             <h4>Full Name *</h4>
-            <input type="text" placeholder="Enter your full name"/>
+            <input name="Full Name" type="text" placeholder="Enter your full name"/>
         </div>
-       <div class="email-phone">
+        <div class="email-phone">
         <div class="email">
             <h4>Email</h4>
-            <input type="email" placeholder="Enter your email"/>
+            <input name="email" type="email" placeholder="Enter your email"/>
         </div>
         <div class="phone">
             <h4>Phone</h4>
-            <input type="number" placeholder="Enter your phone"/>
+            <input name="phone" type="number" placeholder="Enter your phone"/>
         </div>
-    </div>
+       </div>
         <div class="message">
             <h4>Message*</h4>
             <textarea name="textarea" rows="10" cols="50">Write your message here...</textarea>
         </div>
         <div>
             <button class="button-sum">Submit</button>
-            </div>  
+        </div>  
+         </form>
+        
     </section>
+    <script src="./index.js"></script>
     </body>
     <footer>
     <div class="final">
