@@ -230,3 +230,126 @@ input{
    color: #6b708d;
    padding-bottom: 2rem;
 }
+
+@media (max-width:769px){
+
+    body{
+        margin-top:0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #f2f4fc;
+        font-family: 'Roboto', sans-serif;
+    }
+    #mobile{
+        display: block;
+    }
+    
+    #computer{
+        display: none;
+    }
+    
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: none;
+        background: #f2f4fc;
+        cursor: pointer;
+      }
+      .closeIcon {
+        display: none;
+      }
+      .menu {
+        flex-direction: column;
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #f2f4fc;
+        color: white;
+        list-style: none;
+      }
+      .showMenu {
+        transform: translateY(0);
+      }
+
+    .buttonini{
+        display: none;
+    }
+
+    .text h1{
+        padding: 0cm;
+    }
+
+    .text h3{
+        padding: 0cm;
+    }
+
+    .text p{
+        padding-right: 0ch;
+        text-align: justify;
+    }
+
+    #insert1{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5rem 11rem;
+        margin-top: 2rem;
+    }
+
+    .simplify{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #insert1 h3{
+        text-align: center;
+    }
+    .suscribe{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0rem;
+    }
+    .input-suscribe{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+    
+    }
+    .button-final{
+        margin-top: 1rem;
+        width: 25rem;
+        margin-right: 1rem;
+    }
+    
+    .input-suscribe input{
+        width: 15rem;
+        padding-right: 3rem;
+        padding-left: 7rem;
+        justify-items: center;
+        margin-left: 1rem;
+    
+    }
+    .final p{
+      text-align: center;
+    }
+    .imagenlogo2{
+        display:block;
+        margin:auto;
+    }
+    .list1{
+        display:block;
+        margin:auto;
+        padding-left: 10rem;
+    }
+
+    
+}
