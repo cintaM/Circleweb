@@ -40,7 +40,7 @@
                 <img class="rectangle1" src="./img/Rectangle 71.png"/>
                 <h3>${articles.title}</h3>
                 <p>${articles.body}</p>
-                <a href="#">Learn more </a>
+                <a href="http://127.0.0.1:5501/simplify.html#">Learn more </a>
             </article>`
      } });
       document.getElementById("insert1").innerHTML = dataL;

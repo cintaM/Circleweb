@@ -24,6 +24,13 @@ ul a {
     font-size: 0.85rem;
 
 }
+#insert1 h3 {
+    width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
 
 .imagenlogo1{
     display: flex;
@@ -112,7 +119,7 @@ ul a {
 
 }
 .rectangle1{
-    height: 10rem;
+    height: 12rem;
 }
 
 .simplify{
