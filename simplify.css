@@ -73,11 +73,12 @@ ul a {
     justify-content: center;
 
 }
-.text p{
+.fecha{
     text-align: end;
-    margin-bottom: 5rem;
     padding-right: 8rem;
-    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+
 }
 
 .text h1{
@@ -94,10 +95,11 @@ ul a {
   padding-left: 8rem;
 }
 
-.text p {
+.parrafo {
     margin-top: 3rem;
-    padding-left: 9rem;
     text-align: left;
+    margin-right: 7rem;
+    margin-left: 7.5rem;
 }
 #insert1 p{
     width: 250px;
@@ -234,9 +236,8 @@ input{
 @media (max-width:769px){
 
     body{
-        margin-top:0rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
+        margin:0rem;
+        padding: 0rem;
         background-color: #f2f4fc;
         font-family: 'Roboto', sans-serif;
     }
@@ -300,8 +301,7 @@ input{
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 5rem 11rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .simplify{
@@ -316,6 +316,7 @@ input{
         display: flex;
         flex-direction: column;
         padding: 5rem 0rem;
+        background-repeat: repeat;
     }
     .input-suscribe{
         display: flex;
@@ -349,6 +350,18 @@ input{
         display:block;
         margin:auto;
         padding-left: 10rem;
+    }
+
+    .img-first{
+        display: flex;
+        height: 20rem;
+        width: 45rem;
+    }
+
+    .parrafo{
+        padding: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
 
     
