@@ -4,8 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header{
-    margin-left: 54rem;
-    margin-right: 52rem;
+    margin-left: 12rem;
+    margin-right: 10rem;
 }
 #mobile{
     display: none;
@@ -22,7 +22,7 @@ ul a {
     text-decoration: none;
     text-align: center;
     color:#6b708d;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
 
 }
 
@@ -197,8 +197,8 @@ align-content: center;}
 }
 
 footer{
-    margin-left: 63.4rem ;
-    margin-right: 57.5rem ;
+    margin-left: 19rem ;
+    margin-right: 12rem ;
 }
 
 
@@ -253,5 +253,11 @@ footer{
     .buttonini{
         display: none;
     }
+
+    .entrada{
+        display: block;
+    }
+
+
 }
 
