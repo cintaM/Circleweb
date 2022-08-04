@@ -107,8 +107,7 @@ ul a {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
-  align-content: center;
-  align-content: center;
+  padding-left: 1rem;
 }
 
 #insert1 h3 {
@@ -116,8 +115,7 @@ ul a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  align-content: center;
-  align-content: center;
+  padding-left: 1rem;
 }
 .rectangle1{
     height: 15rem;
@@ -354,19 +352,64 @@ input{
       text-align: center;
     }
     .imagenlogo2{
-        display:block;
-        margin:auto;
+        margin-left: 4rem;
     }
+    .final{
+        padding-top: 2rem;
+        margin-bottom: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .final ul
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    align-content: center;}
+    
     .list1{
-        display:block;
-        margin:auto;
-        padding-left: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        padding-bottom: 3rem;
     }
-
+    
+    .list1 a{
+        padding-right: 3rem;
+        color:#0000EE;
+        font-size: 0.85rem;
+    }
+    
+    .list2{
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        padding-bottom: 3rem;
+        margin-right: 1rem;
+    }
+    
+    .list2 a{
+        padding-right: 2rem;
+        color:#0000EE;
+        font-size: 0.85rem;
+    }
+    .final p{
+        color:#6b708d;
+    }
+    
+    footer{
+        margin-left: 0rem ;
+        margin-right: 0rem ;
+    }
     .img-first{
         display: flex;
-        height: 20rem;
-        width: 45rem;
+        height: 18rem;
+        width: 20rem;
     }
 
     .parrafo{
@@ -375,17 +418,17 @@ input{
         margin-right: 0rem;
     }
     #insert1 p{
-        width: 650px;
+        width: 150px;
+        margin-right: 0;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       text-align: center;
-      padding-left: 2rem;
-      padding-right: 8rem;
+      padding: 0;
+      text-align: end;
     }
-    
     #insert1 h3 {
-        width: 650px;
+        width: 150px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -393,6 +436,22 @@ input{
     
     .rectangle1{
         height: 15rem;
+    }
+
+    .suscribe h1{
+        text-align: center;
+    }
+
+    .suscribe input{
+        width: 15rem;
+        margin-left: 3rem;
+        padding-left: 0%;
+    }
+
+    .button-final{
+        width: 18rem;
+        margin-left: 3rem;
+        padding-left: 0%;
     }
 
 

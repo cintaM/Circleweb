@@ -432,7 +432,6 @@ footer{
         justify-content: space-between;
         align-content: space-between;
         padding-bottom: 3rem;
-        margin-right: 2rem;
     }
     
     .list1 a{
@@ -446,6 +445,7 @@ footer{
         justify-content: space-between;
         align-content: space-between;
         padding-bottom: 3rem;
+        margin-right: 2rem;
     }
     
     .list2 a{
@@ -460,9 +460,11 @@ footer{
     footer{
         margin-left: 0rem ;
         margin-right: 0rem ;
-
-
-}
+    }
+    .entrada{
+        padding: 0;
+        margin: 0;
+    }
 
 }
 

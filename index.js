@@ -47,7 +47,7 @@ menuItems.forEach(
     })
   }
 
-  // Use fetch API post form
+  // Use fetch API post to form
 
   const form =document.getElementById("form");
   form.addEventListener("submit", function(e){

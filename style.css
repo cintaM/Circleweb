@@ -145,7 +145,7 @@ ul a {
 
 #insert1 p{
     width: 250px;
-  white-space: nowrap;
+    white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
