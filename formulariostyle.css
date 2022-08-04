@@ -54,15 +54,91 @@ ul a {
     border: none;
 }
 
-.organizar{
+#form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.organizar{
+    padding: 5rem 15rem;
+    align-items: center;
+    
+}
+
+#form{
+    align-items: center;
+}
+
+#form h4{
+    color:#6b708d;
+    font-size: 1.25rem;
+}
+
+.contactus{
+    display: block;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-right: 39rem;
+}
+
+.name {
+    margin-right: 13rem;
+    font-size: 1.25rem;
+    margin-left: 15rem;
+    
+}
+
+.name input{
+    height: 3rem;
+    width: 60rem;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
 }
 .email-phone{
     display: inline-flex;
     justify-content: space-evenly;
+    margin-left: 2.5rem;
+}
+
+.email{
+    margin-right: 1rem;
+}
+
+.button-sum{
+    align-items: center;
+    width: 60rem;
+    height: 4rem;
+    border: none;
+    background-color: #072ac8;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.email input{
+    height: 3rem;
+    width: 29.5rem;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+
+}
+.phone input{
+    height: 3rem;
+    width: 29.5rem;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+}
+.message{
+    margin-left: 2.2rem;
+}
+
+.message textarea{
+    width: 60.2rem;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+
 }
 
 .imagenlogo2{
@@ -73,6 +149,8 @@ ul a {
     padding-top: 10rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
     font-family: 'Roboto', sans-serif;
 }
 .contact{
@@ -83,7 +161,9 @@ ul a {
 .final ul
     {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    align-items: center;
+align-content: center;}
 
 .list1{
     display: flex;
