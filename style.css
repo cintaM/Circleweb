@@ -6,10 +6,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 #mobile{
     display: none;
 }
-
 
 .entrada{
     display: flex;
@@ -361,6 +361,11 @@ input{
 
 
 @media (max-width:769px){
+
+    header{
+        margin:0%;
+        padding: 0%;
+    }
     body{
         margin: 0rem;
         padding: 0rem;
@@ -390,8 +395,8 @@ input{
    
     .carts{
         padding: auto;
-        height: 30rem;
-        width:30rem;
+        height: 20rem;
+        width:20rem;
     }
 
     .entrada h1{
@@ -421,21 +426,32 @@ input{
 
   .img-mobile{
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 8rem;
+    padding-left: 2rem;
     justify-items: center;
     justify-items: center;
     
  }
 
- .business{
-    height: 8rem;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding-right: 3rem;
+ #insert1{
+    margin-left: 5rem;
  }
+
+
+ .business{
+    height: 4rem;
+    margin: 3rem 1rem;
+ }
+
+ #projects{
+    margin: 0%;
+    padding: 0;
+}
+
+.triangle1{
+    width: 100%;
+}
+
  .all-clients{
     background-repeat: repeat;
     margin: 0rem;
@@ -452,6 +468,14 @@ input{
  .clients{
     font-size: auto;
  }
+
+ .clients h1{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+ }
  .coment{
     margin: 0rem;
     padding: 0rem;
@@ -461,8 +485,23 @@ input{
     padding: 0rem;
  }
 
+ .woman-name p{
+    margin-bottom: 0%;
+ }
+ .web p{
+    margin-top: 0%;
+    margin-bottom: 3rem;
+ }
+
  .yellow{
     padding: 0rem;
+    text-align: center;
+    font-size: 0.8rem;
+ }
+
+ .photo-woman{
+    width: 1.5rem;
+    height: 1.5rem;
  }
 
  .services-list{
@@ -470,25 +509,18 @@ input{
     flex-direction: column;
  }
 
-.final{
-    display: flex;
-    flex-direction: column;
-}
-
-.list1{
-padding-right: 10rem;
-}
-
 .title-one{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.simplify{
-    background-color: white;
-    padding-bottom: 2rem;
-    margin: 1rem 13.4rem;
+
+.simplify p{
+    margin-left: 0rem;
+}
+.simplify h3{
+    margin-left: 0rem;
 }
 
 .buttonini{
@@ -515,15 +547,28 @@ padding-right: 10rem;
     width: 25rem;
     margin-right: 1rem;
 }
-
-.input-suscribe input{
-    width: 15rem;
-    padding-right: 3rem;
-    padding-left: 7rem;
-    justify-items: center;
-    margin-left: 1rem;
-
+.suscribe h1{
+    text-align: center;
 }
+
+.suscribe input{
+    width: 15rem;
+    margin-left: 3rem;
+    padding-left: 0%;
+}
+
+.button-final{
+    width: 15.2rem;
+    margin-left: 3rem;
+    padding-left: 3rem;
+}
+
+.final{
+    margin-top:3rem;
+    padding: 0%;
+    margin-bottom: 5rem;
+}
+
 .final p{
   text-align: center;
 }
@@ -531,11 +576,7 @@ padding-right: 10rem;
     display:block;
     margin:auto;
 }
-.list1{
-    display:block;
-    margin:auto;
-    padding-left: 10rem;
-}
+
 
 #mobile{
     display: block;
@@ -586,7 +627,92 @@ padding-right: 10rem;
 
 .simplify{
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem 0rem;
+    background-color: white;
+    padding: 0%;
+    width: 15rem;
+}
+
+.final p{
+    text-align: center;
+  }
+  .imagenlogo2{
+      margin-left: 4rem;
+  }
+  .final{
+      padding-top: 2rem;
+      margin-bottom: 15rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .final ul
+      {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  align-content: center;}
+  
+  .list1{
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      padding-bottom: 3rem;
+  }
+  
+  .list1 a{
+      padding-right: 3rem;
+      color:#0000EE;
+      font-size: 0.85rem;
+  }
+  
+  .list2{
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      padding-bottom: 3rem;
+      margin-right: 1rem;
+  }
+  
+  .list2 a{
+      padding-right: 2rem;
+      color:#0000EE;
+      font-size: 0.85rem;
+  }
+  .final p{
+      color:#6b708d;
+  }
+  
+  footer{
+      margin-left: 0rem ;
+      margin-right: 0rem ;
+  }
+
+  #insert1 p{
+    width: 150px;
+    margin-right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding-left: 2rem;
+  text-align: end;
+}
+#insert1 h3 {
+    width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 2rem;
+}
+
+
+#Services{
+    text-align: center;
 }
 
 }
