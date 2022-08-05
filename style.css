@@ -79,9 +79,7 @@ ul a {
     text-align: center;
     text-align: left;
 }
-.paragraph-one{
- text-align: center;
-}
+
 .title-one{
     padding-left: 5rem;
     display: flex;
@@ -92,10 +90,14 @@ ul a {
     padding-bottom: 5rem;
 }
 
-.container{
-    height: 4rem;
-    padding-left: 3rem;
-    width: 50rem;
+.paragraph-one{
+ text-align: center;
+}
+
+.button-one{
+    display:flex;
+    padding-top: 1rem;
+
 }
 
 
@@ -116,16 +118,8 @@ ul a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-}
-.rectangle1{
-    height: 12rem;
 }
 
-.simplify{
-    background-color: white;
-    padding-bottom: 2rem;
-}
 #insert1 {
     display: inline-flex;
     justify-content: space-evenly;
@@ -150,18 +144,22 @@ ul a {
   text-overflow: ellipsis;
 }
 
-.button-one{
-    display:flex;
-    padding-top: 1rem;
 
-}
 .all-clients{
         background-color: #2D3F64;
 }
-
 .first-faces{
     display: flex;
     justify-content: space-evenly;
+}
+
+.rectangle1{
+    height: 12rem;
+}
+
+.simplify{
+    background-color: white;
+    padding-bottom: 2rem;
 }
 
 .blond{
@@ -206,6 +204,7 @@ ul a {
     padding: 0rem;
 }
 
+
 .photo-woman{
     height: 2.5rem;
     padding-top: 1rem;
@@ -242,6 +241,16 @@ ul a {
     padding-left: 30rem;
 }
 
+
+.all-services{
+    padding-top: 5rem;   
+    padding-bottom: 5rem ;
+}
+
+all-services h2{
+    font-size: 2rem;
+}
+
 .services-list{
     display: inline-flex;
     justify-content: space-around;
@@ -249,17 +258,6 @@ ul a {
     padding-bottom: 5rem;
     align-items: center;
 }
-.all-services{
-    padding-top: 5rem;   
-    padding-bottom: 5rem ;
-}
-
-
-
-.all-services h2{
-    font-size: 2rem;
-}
-
 .sections{
     background-color: white;
     padding-bottom: 2rem;
@@ -272,7 +270,6 @@ ul a {
     padding-left: 1rem;
 }
 
-
 .suscribe{
     background-color: #ffc600;
     display: flex;
@@ -280,6 +277,17 @@ ul a {
     align-content: center;
     align-items: center;
     padding: 10rem;
+}
+
+.ordenar{
+    text-align: left;
+    padding: 1rem;
+}
+
+input{
+    height: 3.5rem;
+    width: 15rem;
+    border: none;
 }
 
 .imagenlogo2{
@@ -315,18 +323,7 @@ ul a {
     color:#6b708d;
 }
 
-.ordenar{
-    text-align: left;
-    padding: 1rem;
-}
 
-input{
-    height: 3.5rem;
-    width: 15rem;
-    border: none;
-
-
-}
 
 ::placeholder{
     background-image: url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800bdf78ad83daac42661_Mail.svg");
@@ -358,7 +355,7 @@ input{
     display: none;
 }
 
-
+/* Mobile */
 
 @media (max-width:769px){
 
