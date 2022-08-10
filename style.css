@@ -1,6 +1,6 @@
 body{
     margin-top:5rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-right: 3rem;
     background-color: #f2f4fc;
     font-family: 'Roboto', sans-serif;
@@ -21,16 +21,26 @@ ul a {
     text-decoration: none;
     text-align: center;
     color:#6b708d;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
 
+}
+
+.buttonini{
+    display: flex;
 }
 #insert1 h3 {
     width: 250px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-left: 1rem;
 
 }
+
+#insert1 p{
+    margin-left: 1rem;
+}
+
 
 .imagenlogo1{
     display: flex;
@@ -43,6 +53,8 @@ ul a {
     display: flex;
     height: 5rem;
     justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .entrada ul{
@@ -69,6 +81,8 @@ ul a {
     display: flex;
     align-content: space-between;
     padding-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
 }
 
 .carts{
@@ -81,7 +95,7 @@ ul a {
 }
 
 .title-one{
-    padding-left: 5rem;
+    padding-left: 15rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -220,6 +234,14 @@ ul a {
     color: #a2d6f9;
     font-size: 0.85rem;
 }
+.woman-name p{
+    margin-bottom: 0;
+}
+
+.web{
+    margin-top: 0;
+}
+
 .web{
     font-size: 0.6rem;
 }
@@ -247,7 +269,7 @@ ul a {
     padding-bottom: 5rem ;
 }
 
-all-services h2{
+.all-services h2{
     font-size: 2rem;
 }
 
@@ -277,6 +299,15 @@ all-services h2{
     align-content: center;
     align-items: center;
     padding: 10rem;
+}
+
+.suscribe h1{
+    font-size: 2rem;
+}
+
+.suscribe p{
+   color: #6b708d;
+   padding-bottom: 2rem;
 }
 
 .ordenar{
@@ -323,8 +354,6 @@ input{
     color:#6b708d;
 }
 
-
-
 ::placeholder{
     background-image: url("https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800bdf78ad83daac42661_Mail.svg");
     background-repeat: no-repeat;
@@ -343,14 +372,6 @@ input{
 
 }
 
-.suscribe h1{
-    font-size: 2rem;
-}
-
-.suscribe p{
-   color: #6b708d;
-   padding-bottom: 2rem;
-}
 .img-mobile{
     display: none;
 }
@@ -359,15 +380,23 @@ input{
 
 @media (max-width:769px){
 
-    header{
-        margin:0%;
-        padding: 0%;
-    }
+    
     body{
         margin: 0rem;
         padding: 0rem;
         background-color: #f2f4fc;
         font-family: 'Roboto', sans-serif;
+    }
+
+    header{
+        margin:0%;
+        padding: 0%;
+    }
+
+    .entrada h1{
+        padding: 0;
+        text-align: center;
+        text-justify: justify;
     }
     .one-page{
         display: flex;
@@ -385,6 +414,12 @@ input{
         text-align: center;
     }
 
+    .title-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .button-one{
         display: flex;
         flex-direction: column;
@@ -396,10 +431,8 @@ input{
         width:20rem;
     }
 
-    .entrada h1{
-        padding: 0;
-        text-align: center;
-        text-justify: justify;
+    .buttonini{
+        display: none;
     }
 
   #projects{
@@ -506,22 +539,11 @@ input{
     flex-direction: column;
  }
 
-.title-one{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
 .simplify p{
     margin-left: 0rem;
 }
 .simplify h3{
     margin-left: 0rem;
-}
-
-.buttonini{
-    display: none;
 }
 
 .sections{
@@ -706,7 +728,6 @@ input{
   text-overflow: ellipsis;
   padding-left: 2rem;
 }
-
 
 #Services{
     text-align: center;

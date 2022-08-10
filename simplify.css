@@ -21,7 +21,7 @@ ul a {
     text-decoration: none;
     text-align: center;
     color:#6b708d;
-    font-size: 0.85rem;
+    font-size: 1.1rem;
 
 }
 
@@ -195,6 +195,19 @@ ul a {
     font-size: 0.85rem;
 }
 
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.list2 a{
+    padding-right: 2rem;
+    color:#0000EE;
+    font-size: 0.85rem;
+}
 .final p{
     color:#6b708d;
 }
@@ -311,6 +324,8 @@ input{
         text-align: center;
         align-content: center;
         align-content: center;
+        margin-left: 2rem;
+        margin-right: 1rem;
     }
 
     .simplify{
@@ -414,8 +429,10 @@ input{
         margin-left: 0rem;
         margin-right: 0rem;
     }
+
+
     #insert1 p{
-        width: 50px;
+        width: 100px;
         margin-right: 0;
       white-space: nowrap;
       overflow: hidden;
@@ -423,12 +440,14 @@ input{
       text-align: center;
       padding: 0;
       text-align: end;
+      margin-left: 3rem;
     }
     #insert1 h3 {
-        width: 50px;
+        width: 80px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      margin-left: 2rem;
     }
     
     .rectangle1{
